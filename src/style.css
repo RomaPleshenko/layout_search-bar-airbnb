@@ -19,7 +19,7 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 8px 0;
 }
 
 form {
@@ -47,6 +47,7 @@ form[data-qa='small'] {
   background-position: 20px center;
   background-size: 20px;
 
+  font-family: Avenir, sans-serif;
   font-size: 16px;
   font-weight: 300;
   outline: none;
@@ -57,7 +58,7 @@ form[data-qa='small'] {
 
 .form__input--big {
   height: 70px;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 100%;
 
   background-size: 19px;
